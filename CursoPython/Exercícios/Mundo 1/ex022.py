@@ -1,0 +1,7 @@
+nome = input('Informe seu nome completo: ')
+print(nome.upper())
+print(nome.lower())
+space = nome.split()
+nospace = ''.join(space)
+print(len(nospace))
+print(len(space[0]))
